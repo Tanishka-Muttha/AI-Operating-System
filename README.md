@@ -1,4 +1,4 @@
-# Local Desktop Computer-Use Agent
+# AI-Operating-System: Local Desktop Computer-Use Agent
 
 A production-grade, 100% local, zero-cost Desktop Computer-Use Agent framework.
 Mirrors Anthropic's Claude Computer-Use architecture but runs entirely offline via
