@@ -1,0 +1,5 @@
+17:01:03 | INFO     | ComputerUseAgent | Log file: C:\Users\varad\.gemini\antigravity\scratch\local-computer-use-agent\logs\agent_20260718_170103.log
+17:01:05 | INFO     | ComputerUseAgent | Ollama connected. Available models: ['gemma4:e2b', 'gemma3:1b']
+17:01:05 | INFO     | ComputerUseAgent | 
+[Iteration 1/20]
+17:01:06 | INFO     | ComputerUseAgent | Sending to Vision Brain...

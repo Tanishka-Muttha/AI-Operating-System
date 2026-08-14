@@ -1,0 +1,38 @@
+13:16:06 | INFO     | ComputerUseAgent | Log file: C:\Users\varad\.gemini\antigravity\scratch\local-computer-use-agent\logs\agent_20260718_131606.log
+13:16:08 | INFO     | ComputerUseAgent | Ollama connected. Available models: ['gemma4:e2b', 'gemma3:1b']
+13:16:08 | INFO     | ComputerUseAgent | 
+[Iteration 1/20]
+13:16:09 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:16:26 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 1): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:16:44 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 2): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:17:01 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 3): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:17:01 | ERROR    | ComputerUseAgent | All retries failed. Last error: Expecting value: line 1 column 1 (char 0)
+13:17:01 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:17:03 | INFO     | ComputerUseAgent | Executed: Waited 1.5s
+13:17:03 | INFO     | ComputerUseAgent | 
+[Iteration 2/20]
+13:17:04 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:17:21 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 1): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:17:39 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 2): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:17:51 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:17:52 | INFO     | ComputerUseAgent | Executed: Typed: 'notepad'
+13:17:53 | INFO     | ComputerUseAgent | 
+[Iteration 3/20]
+13:17:53 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:18:10 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 1): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:18:28 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 2): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:18:46 | WARNING  | ComputerUseAgent | JSON decode failed (attempt 3): Expecting value: line 1 column 1 (char 0). Raw: ''
+13:18:46 | ERROR    | ComputerUseAgent | All retries failed. Last error: Expecting value: line 1 column 1 (char 0)
+13:18:46 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:18:47 | INFO     | ComputerUseAgent | Executed: Waited 1.5s
+13:18:47 | INFO     | ComputerUseAgent | 
+[Iteration 4/20]
+13:18:48 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:19:08 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:19:10 | INFO     | ComputerUseAgent | Executed: Typed: 'Hello World'
+13:19:10 | INFO     | ComputerUseAgent | 
+[Iteration 5/20]
+13:19:11 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:19:19 | WARNING  | ComputerUseAgent | Invalid coordinate 0: 'int' object is not subscriptable
+13:19:19 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:19:19 | INFO     | ComputerUseAgent | Task marked DONE by model.

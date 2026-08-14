@@ -1,0 +1,17 @@
+13:53:56 | INFO     | ComputerUseAgent | Log file: C:\Users\varad\.gemini\antigravity\scratch\local-computer-use-agent\logs\agent_20260718_135356.log
+13:53:58 | INFO     | ComputerUseAgent | Ollama connected. Available models: ['gemma4:e2b', 'gemma3:1b']
+13:53:58 | INFO     | ComputerUseAgent | 
+[Iteration 1/20]
+13:53:59 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:54:13 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:54:13 | WARNING  | ComputerUseAgent | Coordinate clamped: (937,1837) -> (937,1195)
+13:54:14 | INFO     | ComputerUseAgent | Executed: Left click -> (937, 1195)
+13:54:15 | INFO     | ComputerUseAgent | 
+[Iteration 2/20]
+13:54:15 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:54:33 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:54:33 | WARNING  | ComputerUseAgent | Coordinate clamped: (937,1837) -> (937,1195)
+13:54:34 | INFO     | ComputerUseAgent | Executed: Left click -> (937, 1195)
+13:54:34 | INFO     | ComputerUseAgent | 
+[Iteration 3/20]
+13:54:35 | INFO     | ComputerUseAgent | Sending to Vision Brain...

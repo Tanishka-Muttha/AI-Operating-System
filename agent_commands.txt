@@ -1,0 +1,160 @@
+======================================================================
+                  LOCAL COMPUTER-USE AGENT COMMAND LIST
+======================================================================
+
+--- ✍️ AI CONTENT GENERATION & WRITING (LLM writes, then opens app and pastes) ---
+  * "write a resignation letter in word"
+  * "write a letter to principal of my college about her resignation in word"
+  * "write a leave application in word"
+  * "write a complaint letter to the manager in word"
+  * "write an apology letter in word"
+  * "write an essay on climate change in word"
+  * "write a report about artificial intelligence in word"
+  * "write a 500 word essay about friendship in word"
+  * "write an email to my manager about leave in word"
+  * "write an email to boss about project delay in word"
+  * "write a graduation speech in word"
+  * "write a farewell speech for my teacher in word"
+  * "write a letter in notepad"
+  * "write a resignation letter in notepad"
+  * "create a todo list for my project in notepad"
+  * "make a study plan for exams in notepad"
+  * "write a weekly schedule in notepad"
+  * "write python code to sort a list in vscode"
+  * "generate a javascript function and open in vscode"
+  * "generate a letter and save to text file"
+
+--- 🌐 WEB & BROWSER ---
+  * "search google for [topic]"
+  * "search youtube for python tutorial"
+  * "search wikipedia for Albert Einstein"
+  * "search github for react hooks"
+  * "search reddit for study tips"
+  * "search stackoverflow for python error"
+  * "open incognito window"
+  * "bookmark this page"
+  * "open browser history"
+  * "open browser downloads"
+  * "find on page: machine learning"
+  * "print this page"
+  * "open reader mode"
+  * "new tab and search python docs"
+  * "scroll to top"
+  * "scroll to bottom"
+
+--- 💻 SYSTEM COMMANDS (Instant execution) ---
+  * "show my ip address"
+  * "show disk space"
+  * "show system info"
+  * "show cpu usage"
+  * "show date and time"
+  * "show running processes"
+  * "ping google.com"
+  * "list files in this folder"
+  * "restart computer"
+  * "shutdown computer"
+  * "lock screen"
+  * "sleep computer"
+  * "take a screenshot"
+
+--- ⌨️ KEYBOARD SHORTCUTS (Hotkeys for active window) ---
+  * "save file" (Ctrl+S)
+  * "undo" (Ctrl+Z)
+  * "redo" (Ctrl+Y)
+  * "copy" (Ctrl+C)
+  * "paste" (Ctrl+V)
+  * "select all" (Ctrl+A)
+  * "new tab" (Ctrl+T)
+  * "close tab" (Ctrl+W)
+  * "zoom in" (Ctrl++)
+  * "zoom out" (Ctrl+-)
+  * "show desktop" (Win+D)
+  * "maximize window" (Win+Up)
+  * "minimize window" (Win+Down)
+  * "snap left" (Win+Left)
+  * "snap right" (Win+Right)
+  * "close window" (Alt+F4)
+  * "volume up" (Media key)
+  * "volume down" (Media key)
+  * "mute" (Mute key)
+  * "virtual desktop" (Win+Ctrl+D)
+  * "switch window" (Alt+Tab)
+
+--- 📷 SCREENSHOT TOOLS ---
+  * "take a screenshot" (Full screen)
+  * "take a screenshot of the region"
+  * "take a screenshot of active window"
+  * "take a screenshot and open in paint"
+  * "open snipping tool"
+  * "take screenshot and save"
+
+--- 📝 NOTEPAD ACTIONS ---
+  * "open notepad"
+  * "open notepad and type hello world"
+  * "open notepad type some text and save as myfile.txt"
+  * "notepad find hello and replace with hi"
+  * "open notepad and select all"
+
+--- 🧮 CALCULATOR ---
+  * "open calculator and compute 42 times 7"
+  * "calculate 15 percent of 2000"
+  * "open scientific calculator"
+  * "open currency converter in calculator"
+
+--- ⚙️ WINDOWS SETTINGS ---
+  * "change wallpaper"
+  * "adjust brightness"
+  * "turn on dark mode"
+  * "turn on night light"
+  * "open wifi settings"
+  * "open bluetooth settings"
+  * "open sound settings"
+  * "open display settings"
+  * "open power settings"
+  * "open storage settings"
+  * "open mouse settings"
+  * "open language settings"
+  * "turn on focus assist"
+  * "open accessibility settings"
+  * "open default apps"
+
+--- 📱 OPEN APPLICATIONS ---
+  * "open spotify"
+  * "open discord"
+  * "open whatsapp"
+  * "open teams"
+  * "open zoom"
+  * "open outlook"
+  * "open vlc"
+  * "open github desktop"
+  * "open onenote"
+  * "open [any application name]"
+
+--- 🖥️ OFFICE SUITE ---
+  * "open microsoft word"
+  * "open excel"
+  * "open powerpoint"
+  * "add a new slide in powerpoint"
+
+--- 🎵 MEDIA & CLOCKS ---
+  * "play pause"
+  * "next song"
+  * "previous song"
+  * "stop music"
+  * "set a timer"
+  * "set an alarm"
+  * "open stopwatch"
+  * "open clock"
+
+--- ⚡ QUICK ACTIONS & UTILITIES ---
+  * "open clipboard history"
+  * "open emoji picker"
+  * "open run dialog"
+  * "open task manager"
+  * "open sticky notes"
+  * "open sticky notes and write buy groceries"
+  * "open calendar"
+  * "add calendar event team meeting"
+  * "split screen notepad and calculator"
+
+======================================================================

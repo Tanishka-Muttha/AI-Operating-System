@@ -1,0 +1,45 @@
+13:20:19 | INFO     | ComputerUseAgent | Log file: C:\Users\varad\.gemini\antigravity\scratch\local-computer-use-agent\logs\agent_20260718_132019.log
+13:20:21 | INFO     | ComputerUseAgent | Ollama connected. Available models: ['gemma4:e2b', 'gemma3:1b']
+13:20:21 | INFO     | ComputerUseAgent | 
+[Iteration 1/20]
+13:20:21 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:20:41 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:20:41 | WARNING  | ComputerUseAgent | Coordinate clamped: (56,1783) -> (56,1195)
+13:20:43 | INFO     | ComputerUseAgent | Executed: Left click -> (56, 1195)
+13:20:43 | INFO     | ComputerUseAgent | 
+[Iteration 2/20]
+13:20:43 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:21:15 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:21:15 | WARNING  | ComputerUseAgent | Coordinate clamped: (0,0) -> (5,5)
+13:21:16 | INFO     | ComputerUseAgent | Executed: Hotkey pressed: win+r
+13:21:17 | INFO     | ComputerUseAgent | 
+[Iteration 3/20]
+13:21:17 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:21:24 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:21:25 | INFO     | ComputerUseAgent | Executed: Hotkey pressed: enter
+13:21:25 | INFO     | ComputerUseAgent | 
+[Iteration 4/20]
+13:21:26 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:21:35 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:21:37 | INFO     | ComputerUseAgent | Executed: Typed: 'Hello World'
+13:21:37 | INFO     | ComputerUseAgent | 
+[Iteration 5/20]
+13:21:37 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:21:43 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:21:43 | INFO     | ComputerUseAgent | Task marked DONE by model.
+13:22:17 | INFO     | ComputerUseAgent | 
+[Iteration 6/20]
+13:22:18 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:22:44 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:22:46 | INFO     | ComputerUseAgent | Executed: Mouse moved -> (93, 93)
+13:22:46 | INFO     | ComputerUseAgent | 
+[Iteration 7/20]
+13:22:47 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:22:55 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:22:57 | INFO     | ComputerUseAgent | Executed: Left click -> (174, 174)
+13:22:57 | INFO     | ComputerUseAgent | 
+[Iteration 8/20]
+13:22:57 | INFO     | ComputerUseAgent | Sending to Vision Brain...
+13:23:11 | WARNING  | ComputerUseAgent | Invalid coordinate 0: 'int' object is not subscriptable
+13:23:11 | INFO     | ComputerUseAgent | Screen resolution: 1920x1200
+13:23:11 | INFO     | ComputerUseAgent | Task marked DONE by model.
