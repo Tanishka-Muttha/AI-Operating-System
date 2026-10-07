@@ -29,6 +29,19 @@ from executor      import PlaybookRunner
 logger = logging.getLogger("ComputerUseAgent.router")
 
 
+def _has(t: str, *phrases: str) -> bool:
+    """True only if a phrase appears as whole word(s). 'ping' will NOT match 'shopping'."""
+    return any(re.search(r"\b" + re.escape(p) + r"\b", t) for p in phrases)
+
+
+_QUESTION_RE = re.compile(r"^\s*(how|what|why|when|where|which|who|explain|tell me)\b")
+
+
+def _is_question(t: str) -> bool:
+    """'how to shutdown a pc' is a question, not a command."""
+    return bool(_QUESTION_RE.match(t))
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  PHASE 1: PYTHON KEYWORD RULES — No LLM, instant classification
 # ══════════════════════════════════════════════════════════════════════════════
@@ -152,7 +165,7 @@ def classify_by_rules(task: str) -> tuple[str, str, str]:
         return "open_notepad",                  "cmd",  "high"
 
     # ── CALCULATOR ────────────────────────────────────────────────────────
-    if any(w in t for w in ["calculator", "calculate", "compute", "computation"]):
+    if _has(t, "calculator", "calculate", "calculating", "compute", "computation"):
         if any(w in t for w in ["scientific"]):
             return "calculator_scientific_mode","gui",  "high"
         if any(w in t for w in ["currency", "convert"]):
@@ -347,7 +360,7 @@ def classify_by_rules(task: str) -> tuple[str, str, str]:
     # ── SYSTEM COMMANDS ───────────────────────────────────────────────────
     if any(w in t for w in ["ip address", "my ip", "ipconfig"]):
         return "show_ip_address",               "cmd",  "high"
-    if any(w in t for w in ["ping", "check connection", "network test"]):
+    if _has(t, "ping", "check connection", "network test"):
         return "ping_host",                     "cmd",  "high"
     if any(w in t for w in ["disk space", "drive space", "free space"]):
         return "show_disk_usage",               "cmd",  "high"
@@ -363,11 +376,11 @@ def classify_by_rules(task: str) -> tuple[str, str, str]:
         return "show_system_info",              "cmd",  "high"
     if any(w in t for w in ["date and time", "current time", "what time", "what date"]):
         return "show_date_time",                "cmd",  "high"
-    if any(w in t for w in ["restart", "reboot"]):
+    if not _is_question(t) and _has(t, "restart", "reboot"):
         return "restart_computer",              "cmd",  "high"
-    if any(w in t for w in ["shutdown", "shut down", "turn off"]):
+    if not _is_question(t) and _has(t, "shutdown", "shut down", "turn off"):
         return "shutdown_computer",             "cmd",  "high"
-    if any(w in t for w in ["sleep", "hibernate"]):
+    if not _is_question(t) and _has(t, "sleep", "hibernate"):
         return "sleep_computer",                "cmd",  "high"
     if any(w in t for w in ["clear clipboard", "clear clip"]):
         return "clear_clipboard",               "cmd",  "high"
